@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/css/style.css" />
+        <script src="/js/script.js" defer></script>
+        <title>Dojonary</title>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <nav class="nav">
+                    <h1 class="dojo">Dojonary</h1>
+                    <div class="search-bar">
+                        <input
+                            type="text"
+                            class="search-input"
+                            placeholder="Search"
+                        />
+                    </div>
+                    <button id="loginButton" onclick="changeButton()">
+                        Login
+                    </button>
+                </nav>
+            </div>
+
+            <div class="top-section">
+                <div class="left-box">
+                    <div class="ninjutsu">
+                        <h1>ninja</h1>
+                        <h3><em>noun</em></h3>
+                        <h4>Plural: <em>ninjas</em></h4>
+                        <button
+                            class="top-yellow-btn"
+                            onclick="alert('Ninja was liked')"
+                        >
+                            13 likes
+                        </button>
+                    </div>
+                    <p class="paragraph-one">
+                        A practitioner skilled in the<br />
+                        <u>Japanese</u> art of <u>ninjutsu</u>
+                    </p>
+                </div>
+                <div class="right-box">
+                    <p class="right-text">
+                        Dojonary is<br />
+                        defined by YOU
+                    </p>
+                    <button id="greenButton" onclick="removeButton()">
+                        Add Definition
+                    </button>
+                </div>
+            </div>
+
+            <div class="btm-box">
+                <div class="programmer">
+                    <h1>ninja</h1>
+                    <h3><em>noun</em></h3>
+                    <h4>Plural: <em>ninjas</em></h4>
+                    <button class="btm-yellow-btn">13 likes</button>
+                </div>
+                <p class="paragraph-two">
+                    A <u>programmer</u> who breaks<br />
+                    down problems with <u>zen</u>-like<br />
+                    focus
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

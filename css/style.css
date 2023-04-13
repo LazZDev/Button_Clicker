@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    font-family: "Shantell Sans";
+    margin: 0 auto;
+    width: 650px;
+    height: 800px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 5px 20px;
+}
+
+.dojo {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.search-bar {
+    display: flex;
+    padding: 5px;
+}
+
+.search-input {
+    width: 250px;
+    height: 10px;
+    padding: 5px;
+}
+
+#loginButton {
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 3px 3px 2px 2px black;
+    padding: 5px 10px;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 440px;
+    height: 180px;
+}
+
+.ninjutsu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+h4 {
+    padding: 5px 10px 30px;
+}
+
+.top-yellow-btn {
+    display: flex;
+    background-color: yellow;
+    border: 1px solid black;
+    box-shadow: 3px 3px 1px 1px black;
+    padding: 5px 30px;
+}
+
+.paragraph-one {
+    padding: 5px 40px;
+}
+
+u {
+    color: blue;
+}
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid black;
+    padding: 10px;
+    height: 120px;
+    width: 160px;
+}
+
+.right-text {
+    font-size: 20px;
+}
+
+#greenButton {
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px 1px black;
+    background-color: lightgreen;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.btm-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin-top: 20px;
+    height: 180px;
+    width: 440px;
+}
+
+.programmer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.btm-yellow-btn {
+    display: flex;
+    background-color: yellow;
+    border: 1px solid black;
+    box-shadow: 3px 3px 1px 1px black;
+    padding: 5px 30px;
+}
+
+.paragraph-two {
+    padding: 5px 30px;
+}
